@@ -1,0 +1,32 @@
+.section__hobby {
+    display: block;
+    flex: none;
+    width: 100%;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5px;
+    background-color: rgb(190, 224, 110);
+    border: 2px solid rgb(133, 212, 97);
+}
+
+.tableBonsai {
+    margin: 15px;
+}
+
+.tableBonsai__caption {
+    margin: 2px 0;
+    padding: 8px;
+    background-color: rgb(181, 209, 24);
+}
+
+.tableBonsai__cell {
+    padding: 4px;
+    text-align: center;
+    background-color: rgb(221, 240, 115);
+}
+
+.tableBonsai__cell--header {
+    background-color: rgb(94, 128, 0);
+}

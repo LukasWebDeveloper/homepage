@@ -1,0 +1,33 @@
+.footer {
+    display: block;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: rgb(190, 224, 110);
+    border: 2px solid rgb(133, 212, 97);
+}
+
+.footer__contact {
+    display: block;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgb(119, 175, 66);
+}
+
+.footer__header {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+}
+
+.footer .contactPage {
+    position: relative;
+    left: 0px;
+    padding: 10px;
+    border: 0px;
+    
+    width: 250px;
+    background-color: rgb(67, 78, 24);
+    color: white;
+}

@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.page {
+    margin: 5px auto;
+    max-width: 1280px;
+    background-color: rgb(226, 240, 194);
+}
+
+.mainSection {
+    display: flex;
+    flex-direction: column;
+    /* flex-basis: ; */
+    /* flex-grow: 2; */
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(177, 228, 129);
+}
+
+
+.section__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
