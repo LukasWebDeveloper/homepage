@@ -6,30 +6,33 @@ html {
     box-sizing: inherit;
 }
 
-.page {
+.body {             
     margin: 5px auto;
     max-width: 1280px;
     background-color: rgb(226, 240, 194);
+    font-family: 'Changa', sans-serif;
 }
 
-.mainSection {
+.main {
     display: flex;
     flex-direction: column;
-    /* flex-basis: ; */
-    /* flex-grow: 2; */
-    margin: 5px;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: rgb(177, 228, 129);
+    margin-top: 5px;
+    padding: 5px 5px 0 5px;
+    border-radius: 10px;
+    background-color: rgb(190, 224, 110);
+    border: 2px solid rgb(133, 212, 97);
 }
-
 
 .section__header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 0px;
-    padding: 5px;
-    border-radius: 5px;
+    text-align: center;
 }
 
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(139, 132, 29);
+    border: 2px solid rgb(201, 197, 1);
+}
