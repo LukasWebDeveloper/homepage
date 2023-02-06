@@ -12,3 +12,5 @@ https://lukaswebdeveloper.github.io/homepage/
 - add add border radius footer__contact
 
 - add nev color border photo with dark background
+
+- added photo guitar

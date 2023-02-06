@@ -7,6 +7,7 @@
 
 .tableBonsai {
     margin: 15px;
+    margin-bottom: 50px;
     border: 2px solid green;
 }
 
@@ -24,4 +25,9 @@
 
 .tableBonsai__cell--header {
     background-color: rgb(156, 179, 95);
+}
+
+.img__guitarEpiphone {
+    height: 400px;
+    margin: 20px;
 }
