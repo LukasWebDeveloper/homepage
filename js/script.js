@@ -1,5 +1,6 @@
 const bodyElement = document.querySelector(".body");
 const headerElement = document.querySelector(".header");
+const headerImgElement = document.querySelector(".header__img");
 const headerNavigationElement = document.querySelector(".header__navigation")
 const mainElement = document.querySelector(".main");
 const footerElement = document.querySelector(".footer");
@@ -11,6 +12,7 @@ const buttonSpanBackground = document.querySelector(".js-button__span--backgroun
 buttonBackground.addEventListener("click", () => {
     bodyElement.classList.toggle("js-body");
     headerElement.classList.toggle("js-header");
+    headerImgElement.classList.toggle("js-header__img");
     headerNavigationElement.classList.toggle("js-header__navigation");
     mainElement.classList.toggle("js-main");
     footerElement.classList.toggle("js-footer");

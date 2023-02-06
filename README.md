@@ -10,3 +10,5 @@ https://lukaswebdeveloper.github.io/homepage/
 - add button and fuction background color and inner text button
 
 - add add border radius footer__contact
+
+- add nev color border photo with dark background
