@@ -1,18 +1,30 @@
-const bodyElement = document.querySelector(".js-body");
-const headerElement = document.querySelector(".js-header");
+const bodyElement = document.querySelector(".body");
+const headerElement = document.querySelector(".header");
+const headerNavigationElement = document.querySelector(".header__navigation")
+const mainElement = document.querySelector(".main");
+const footerElement = document.querySelector(".footer");
+const footerContactElement = document.querySelector(".footer__contact")
 const buttonBackground = document.querySelector(".js-button--backgroundColor");
 const buttonSpanBackground = document.querySelector(".js-button__span--backgroundColor");
 
-// buttonBackground.addEventListener("click", () => {
-//     headerElement.classList.add("js-header");
 
-//     if (buttonSpanBackground.classList.contains("js-header")){
-//         buttonSpanBackground.innerText = "jasne";
-//     }
-//     else {
-//         buttonSpanBackground.innerText = "ciemne";
-//     }
-// });
-// buttonBackground.addEventListener("dblclick", () => {
-//     headerElement.classList.remove("js-header");
-// });
+buttonBackground.addEventListener("click", () => {
+    bodyElement.classList.toggle("js-body");
+    headerElement.classList.toggle("js-header");
+    headerNavigationElement.classList.toggle("js-header__navigation");
+    mainElement.classList.toggle("js-main");
+    footerElement.classList.toggle("js-footer");
+    footerContactElement.classList.toggle("js-footer__contact");
+
+    buttonBackgroundInnerText = () => {
+
+        if(headerElement.classList.contains("js-header")){
+            buttonSpanBackground.innerText = "jasne";
+        } else {
+            buttonSpanBackground.innerText = "ciemne";
+        }
+    }
+
+    buttonBackgroundInnerText();
+});
+
