@@ -13,3 +13,5 @@ hour: 18:34,    date: 07.02.2023    -   Now I add file index.html in folder root
 hour: 18:52,    date: 07.02.2023    -   Now I was add css folders, there will be files used to modify the appearance of the page. I will also add a "js" folder for JAVASCRIPT files and an IMG folder for image files
 
 hour: 20:54,    date: 07.02.2023    -   Now I add main part/tag, HEADER, SECTION AND FOOTER in index.html. I created files CSS these part/tag
+
+hour: 21:10,    date: 07.02.2023    -   I linked  files CSS and JS in file index.html in tag HEAD
