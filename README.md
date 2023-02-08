@@ -25,3 +25,5 @@ hour: 12:42,    date: 08.02.2023    -   I have completed all section code "secti
 hour: 13:00,    date: 08.02.2023    -   I have complete all section hobby in index.html, in file hobby.css I have style  all section hobby. In this section Is my hobby, my tree bonsai is do on site in table.
 
 hour: 13:23,    date: 08.02.2023    -   I have complete all "section__interested" in index.html, in file interested.css and I have complete all code in interested.css
+
+hour: 13:32,    date: 08.02.2023    -   I have complete all "footer" in index.html, there is date contact for me. I have complete style in file footer.css 
