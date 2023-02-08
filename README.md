@@ -21,3 +21,5 @@ hour: 12:15,    date: 08.02.2023    -   I made the HEADER part in index.html and
 hour: 12:30,    date: 08.02.2023    -   I add icon page in index.html and tag HEAD
 
 hour: 12:42,    date: 08.02.2023    -   I have completed all section code "sections_aboutMe", and CSS aboutMe.css
+
+hour: 13:00,    date: 08.02.2023    -   I have complete all section hobby in index.html, in file hobby.css I have style  all section hobby. In this section Is my hobby, my tree bonsai is do on site in table.
