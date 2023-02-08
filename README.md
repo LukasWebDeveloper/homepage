@@ -37,3 +37,12 @@ hour: 13:32,    date: 08.02.2023    -   I have complete all "footer" in index.ht
 hour: 18:50,    date: 08.02.2023    -   added  button in index.html, all code to JS for file script.js and all code to js-style.css for background color page.
 
 hour: 19:50,    date: 08.02.2023    -   added demo page;     I don't know why her icon doesn't work on this page now.
+
+<h2>Used Technologies</h2>
+
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>BEM</li>
+</ul>
