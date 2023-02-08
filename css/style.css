@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {             
+    margin: 5px auto;
+    max-width: 1280px;
+    background-color: rgb(247, 245, 221);
+    font-family: 'Changa', sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    padding: 5px 5px 0 5px;
+    border-radius: 10px;
+    background-color: rgb(190, 224, 110);
+    border: 2px solid rgb(133, 212, 97);
+}
+
+.section__header {
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(73, 114, 56);
+    border: 2px solid rgb(153, 153, 69);
+}
