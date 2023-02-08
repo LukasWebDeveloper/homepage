@@ -4,7 +4,9 @@ updated homework with mod3
 address site is:
 https://lukaswebdeveloper.github.io/homepage/
 
+PHOTO under this text is ICON this PAGE
 
+<img src="img/icon.png">
 
 hour: 18:24,    date: 07.02.2023    -   This time I CUT and PASTE all the files of this project in a different folder except the README.md file, to paste the commands and commit in this README.md one more time
 
