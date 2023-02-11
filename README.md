@@ -14,6 +14,7 @@ https://lukaswebdeveloper.github.io/homepage/
 
 <h2>Description</h2>
 
+<h3>Changelog</h3>
 hour: 18:24,    date: 07.02.2023    -   This time I CUT and PASTE all the files of this project in a different folder except the README.md file, to paste the commands and commit in this README.md one more time
 
 hour: 18:34,    date: 07.02.2023    -   Now I add file index.html in folder root project, In this file add "basic template"
@@ -39,6 +40,8 @@ hour: 13:32,    date: 08.02.2023    -   I have complete all "footer" in index.ht
 hour: 18:50,    date: 08.02.2023    -   added  button in index.html, all code to JS for file script.js and all code to js-style.css for background color page.
 
 hour: 19:50,    date: 08.02.2023    -   added demo page;     I don't know why her icon doesn't work on this page now.
+
+hour: 14:20,    date: 11.02.2023    -   script.js corected
 
 <h2>Used Technologies</h2>
 
