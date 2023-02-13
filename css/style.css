@@ -7,14 +7,15 @@ html {
 }
 
 .body {             
-    margin: 5px auto;
+    display: flex;
     max-width: 1280px;
+    flex-direction: column;
+    margin: 5px auto;
     background-color: rgb(247, 245, 221);
     font-family: 'Changa', sans-serif;
 }
 
 .main {
-    display: flex;
     flex-direction: column;
     margin-top: 5px;
     padding: 5px 5px 0 5px;

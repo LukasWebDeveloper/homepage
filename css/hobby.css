@@ -1,11 +1,23 @@
 .section__hobby {
+    position: relative;
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 5px;
     background-color: rgb(231, 240, 155);
 }
 
+.img--valentineHeart {
+    display: none;
+    position: absolute;
+    padding: 15px;
+    size: 100px;
+    right: 0;
+
+}
+
+
 .tableBonsai {
+    width: 100px;
     margin: 15px;
     margin-bottom: 50px;
     border: 2px solid green;
@@ -28,6 +40,6 @@
 }
 
 .img__guitarEpiphone {
-    height: 400px;
+    height: 200px;
     margin: 20px;
 }
