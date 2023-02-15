@@ -9,8 +9,7 @@
 .img--valentineHeart {
     display: none;
     position: absolute;
-    padding: 15px;
-    size: 100px;
+    margin: 10px;
     right: 0;
 
 }
@@ -25,12 +24,12 @@
 
 .tableBonsai__caption {
     margin: 2px 0;
-    padding: 8px;
+    padding: 4px;
     background-color: rgb(171, 194, 43);
 }
 
 .tableBonsai__cell {
-    padding: 14px;
+    padding: 4px;
     text-align: center;
     background-color: rgb(186, 224, 79);
 }

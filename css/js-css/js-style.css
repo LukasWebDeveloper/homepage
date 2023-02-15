@@ -8,7 +8,8 @@
 }
 
 .js-button--backgroundColor {
-    border-color:  20px solid white;
+    border: 4px dotted white;
+    z-index: 5;
 }
 
 .js-header__navigation {

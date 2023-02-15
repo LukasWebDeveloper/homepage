@@ -1,18 +1,17 @@
 {
-    const bodyElement = document.querySelector(".body");
-    const headerElement = document.querySelector(".header");
-    const headerImgElement = document.querySelector(".header__img");
-    const headerNavigationElement = document.querySelector(".header__navigation")
-    const mainElement = document.querySelector(".main");
-    const footerElement = document.querySelector(".footer");
-    const footerContactElement = document.querySelector(".footer__contact")
     const updateThemeButtonText = document.querySelector(".js-button--backgroundColor");
-    const buttonSpanBackground = document.querySelector(".js-button__span--backgroundColor");
-    const tableBonsaiElement = document.querySelector(".tableBonsai");
-    const imgValentineHeartElement = document.querySelector(".img--valentineHeart");
-
+    const showImgValementine = document.querySelector(".tableBonsai");
 
     updateThemeButtonText.addEventListener("click", () => {
+        const bodyElement = document.querySelector(".body");
+        const headerElement = document.querySelector(".header");
+        const headerImgElement = document.querySelector(".header__img");
+        const headerNavigationElement = document.querySelector(".header__navigation")
+        const mainElement = document.querySelector(".main");
+        const buttonSpanBackground = document.querySelector(".js-button__span--backgroundColor");
+        const footerElement = document.querySelector(".footer");
+        const footerContactElement = document.querySelector(".footer__contact")
+
         bodyElement.classList.toggle("js-body");
         headerElement.classList.toggle("js-header");
         headerImgElement.classList.toggle("js-header__img");
@@ -25,19 +24,15 @@
             ? "jasne" : "ciemne";
     });
 
+    
+    showImgValementine.onclick = () => {
+        const imgValentineHeartElement = document.querySelector(".img--valentineHeart");
 
-    // zrobie teraz w tym miejscu funkcje wyświetlania obrazka na walentynki
-    // po najechaniu na obszar obok tabeli 
-    const hoverTableAndShowHeart = () => {
-        tableBonsaiElement.addEventListener("onmouseover", () => {
-            imgValentineHeartElement.style.display = "display";
-        });
+        imgValentineHeartElement.style.display = "block";
     }
 
     const init = () => {
         updateThemeButtonText();
-        hoverTableAndShowHeart();
-        
     }
 
     init();
