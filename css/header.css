@@ -4,7 +4,7 @@
     padding: 20px;
     border-radius: 10px;
     flex-grow: 0;
-    background-color: rgb(189, 201, 132);
+    background-color: rgb(222, 231, 124);
     border: 2px solid rgb(100, 118, 74);
 }
 
@@ -20,6 +20,7 @@
     margin: 0 auto;
     padding: 10px 100px;
     background-color: rgb(231, 240, 155);
+    border: 1px solid rgb(171, 179, 96);
     border-radius: 10px 10px 500px 500px;
 }
 
@@ -42,7 +43,7 @@
     width: 1000px;
     border-radius: 5px;
     text-align: center;
-    background-color: rgb(155, 173, 137);
+    background-color: rgb(108, 119, 96);
 }
 
 .nav__ul {
@@ -91,11 +92,12 @@
 
     .header__h1 {
         margin: 0 auto;
-        width: 170px;
+        width: auto;
         height: 35px;
         text-align: center;
-        padding: 6px;
-        border-radius: 0px 0px 30px 30px;
+        padding: 0px 5px;
+        padding-top: 3px;
+        border-radius: 0px 0px 20px 20px;
     }
 
     .header__img {

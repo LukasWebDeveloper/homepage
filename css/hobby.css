@@ -45,6 +45,8 @@
 
 @media(max-width:800px) {
     .tableBonsai {
+        position: relative;
+        
         margin: 5px;
     }
 }
