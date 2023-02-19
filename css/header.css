@@ -4,8 +4,8 @@
     padding: 20px;
     border-radius: 10px;
     flex-grow: 0;
-    background-color: rgb(190, 224, 110);
-    border: 2px solid rgb(133, 212, 97);
+    background-color: rgb(189, 201, 132);
+    border: 2px solid rgb(100, 118, 74);
 }
 
 .button--backgroundColor {
@@ -26,7 +26,7 @@
 .header__img {
     align-self: center;
     height: 350px;
-    margin: 40px;
+    margin: 20px;
     border-radius: 50%;
     border: 4px solid rgb(90, 128, 0);
     transition: 1s;
@@ -42,7 +42,7 @@
     width: 1000px;
     border-radius: 5px;
     text-align: center;
-    background-color: rgb(119, 175, 66);
+    background-color: rgb(155, 173, 137);
 }
 
 .nav__ul {
@@ -82,8 +82,8 @@
     .button--backgroundColor {
         position: absolute;
         align-content: flex-start;
-        width: 100px;
-        height: 50px;
+        width: 90px;
+        height: 40px;
         padding: 0px;
         border: 1px solid white;
         border-radius: 5px;
@@ -95,7 +95,7 @@
         height: 35px;
         text-align: center;
         padding: 6px;
-        border-radius: 0px 0px 40px 40px;
+        border-radius: 0px 0px 30px 30px;
     }
 
     .header__img {
@@ -103,7 +103,6 @@
         height: 200px;
         margin: 40px;
         border-radius: 50%;
-        border: 4px solid rgb(90, 128, 0);
         transition: 1s;
     }
 

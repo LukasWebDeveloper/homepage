@@ -6,3 +6,11 @@
     padding: 10px;
     width: 250px;
 }
+
+@media(max-width:800px) {
+    .footer__contact {
+        width: 150px;
+        /* height: 80px; */
+
+    }
+}

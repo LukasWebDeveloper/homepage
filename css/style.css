@@ -11,7 +11,7 @@ html {
     max-width: 1280px;
     flex-direction: column;
     margin: 5px auto;
-    background-color: rgb(247, 245, 221);
+    background-color: rgb(255, 254, 239);
     font-family: 'Changa', sans-serif;
 }
 
@@ -20,8 +20,8 @@ html {
     margin-top: 5px;
     padding: 5px 5px 0 5px;
     border-radius: 10px;
-    background-color: rgb(190, 224, 110);
-    border: 2px solid rgb(133, 212, 97);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(38, 121, 0);
 }
 
 .section__header {
@@ -34,8 +34,8 @@ html {
     margin-top: 5px;
     padding: 20px;
     border-radius: 10px;
-    background-color: rgb(73, 114, 56);
-    border: 2px solid rgb(153, 153, 69);
+    background-color: rgb(60, 84, 50);
+    border: 2px solid rgb(38, 121, 0);
 }
 
 @media(max-width: 800px){
@@ -50,5 +50,13 @@ html {
 
     .section__header {
         margin: 2px;
+    }
+
+    .footer {
+        margin-top: 5px;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: rgb(60, 84, 50);
+        border: 2px solid rgb(38, 121, 0);
     }
 }
