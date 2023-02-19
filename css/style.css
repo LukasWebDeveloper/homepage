@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-}
+} 
 
 *, ::after, ::before {
     box-sizing: inherit;
@@ -36,4 +36,19 @@ html {
     border-radius: 10px;
     background-color: rgb(73, 114, 56);
     border: 2px solid rgb(153, 153, 69);
+}
+
+@media(max-width: 800px){
+    .body {             
+        display: flex;
+        max-width: 800px;
+        flex-direction: column;
+        font-size: 10px;
+        margin: 12px;
+        padding: 1px;
+    }
+
+    .section__header {
+        margin: 2px;
+    }
 }

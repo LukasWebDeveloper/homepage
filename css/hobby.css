@@ -42,3 +42,13 @@
     height: 200px;
     margin: 20px;
 }
+
+@media(max-width:800px) {
+    .tableBonsai {
+        margin: 5px;
+    }
+}
+
+.img__guitarEpiphone {
+    margin: 5px;
+}

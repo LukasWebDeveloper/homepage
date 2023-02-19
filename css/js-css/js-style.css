@@ -8,7 +8,7 @@
 }
 
 .js-button--backgroundColor {
-    border: 4px dotted white;
+    border: 2px solid white;
     z-index: 5;
 }
 
