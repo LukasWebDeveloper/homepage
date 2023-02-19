@@ -43,6 +43,9 @@ hour: 19:50,    date: 08.02.2023    -   added demo page;     I don't know why he
 
 hour: 14:20,    date: 11.02.2023    -   script.js corected
 
+hour: 16:25,    date: 19.02.2023    -   readme.md change CSS for devices mobile
+
+
 <h2>Used Technologies</h2>
 
 <ul>
